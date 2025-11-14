@@ -1,0 +1,55 @@
+
+
+.feedback-controls {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.feedback-button {
+    padding: 0.35rem;
+    border-radius: 9999px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+    color: var(--color-text-subtle);
+}
+
+.feedback-button:hover {
+    background-color: #e5e7eb; 
+}
+
+.dark .feedback-button:hover {
+    background-color: #374151; 
+}
+
+
+
+.like-button:hover {
+    color: #10b981; 
+}
+
+.active-like {
+    color: #10b981;
+    background-color: #d1fae5; 
+}
+
+.dark .active-like {
+    background-color: #065f4680; 
+}
+
+
+
+.dislike-button:hover {
+    color: #ef4444; 
+}
+
+.active-dislike {
+    color: #ef4444;
+    background-color: #fee2e2; 
+}
+
+.dark .active-dislike {
+    background-color: #991b1b80; 
+}

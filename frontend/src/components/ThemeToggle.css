@@ -1,0 +1,29 @@
+
+.theme-toggle-btn {
+    padding: 0.5rem;
+    border-radius: 9999px;
+    transition: background-color 0.3s, color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+
+.light-mode {
+    background-color: #e5e7eb; 
+    color: #4f46e5; 
+}
+
+.light-mode:hover {
+    background-color: #d1d5db; 
+}
+
+.dark-mode {
+    background-color: #374151; 
+    color: #facc15; 
+}
+
+.dark-mode:hover {
+    background-color: #4b5563; 
+}
