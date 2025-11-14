@@ -8,7 +8,7 @@ import ChatMessage from './ChatMessage';
 
 import './ChatMessage.css'; 
 
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://lumibyte-ai.onrender.com/api';
 
 const ChatWindow = () => {
   const { sessionId } = useParams();
